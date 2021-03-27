@@ -3,7 +3,7 @@ import './Card.css'
 
 const Card = () => {
     return (
-        <div>
+        <div className="d-inline-flex p-2">
             <div className="card">
                 <div className="cardTitle">
                     title 

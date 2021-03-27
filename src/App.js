@@ -11,6 +11,11 @@ const App = () => {
     <div>
      <Header />
      <Card />
+     <Card />
+     <Card />
+     <Card />
+     <Card />
+     <Card />
     </div>
   );
 };
