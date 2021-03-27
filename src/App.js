@@ -8,15 +8,26 @@ const Today = new Date();
 
 const App = () => {
   return (
-    <div>
-     <Header />
-     <Card />
-     <Card />
-     <Card />
-     <Card />
-     <Card />
-     <Card />
-    </div>
+    <>
+
+      <div className="container">
+            <Header />
+        <div className="row">
+
+
+      
+          
+          <Card name="sajid shah" />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+
+        </div>
+      </div>
+
+    </>
   );
 };
 

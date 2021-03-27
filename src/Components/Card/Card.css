@@ -4,6 +4,7 @@
     background-color: coral;
     margin-top: 55px;
     margin:20px;
+    border-radius: 10%;
 }
 
 .cardTitle{
@@ -12,3 +13,4 @@
     font-weight: bold;
     padding:5px;
 }
+
