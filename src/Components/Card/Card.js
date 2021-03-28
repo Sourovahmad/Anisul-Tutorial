@@ -7,11 +7,14 @@ const Card = (props) => {
         <div className="d-inline-flex p-2">
             <div className="card">
                 <div className="cardTitle">
-                    title 
+                    {props.name} 
                 </div>
-                <div className="cardBody"></div>
+                <div className="cardBody">
 
+                {props.address}
+                </div>
 
+                    
             </div>
         </div>
     );

@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
-import Header from "./Components/Header/Header"
-import Card from './Components/Card/Card'
-
-const Today = new Date();
-
+import Header from "./Components/Header/Header";
+import Card from './Components/Card/Card';
+import Data from './Data.json';
 
 const App = () => {
+
+  let items = []
+  // for (let x=0; x<Data.length; x++){
+  //   items.push(<Card name={Data[x].name} address={Data[x].address} />)
+  // }
+
+  items = Data.map((item)=> <Card name={item.name} address={item.address} /> )
   return (
     <>
 
@@ -16,18 +21,12 @@ const App = () => {
 
 
       
-          
-          <Card name="sajid shah" />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {items}
+              
 
         </div>
       </div>
-
-    </>
+</>
   );
 };
 
